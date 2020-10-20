@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bank Zbożowy</title>
+<style>
+body {
+	text-align: center;
+	width: 60%;
+	margin: 3em 20% 0  20%;
+	border: 1px solid #3d2a0a;
+	color: #3d2a0a;
+	
+}
+#errors {
+	color: #ffffff;
+	background-color: #A88446;
+	padding: 0.5em;
+}
+input{
+	background-color: #edcc8f; 
+	border: 1px solid #3d2a0a;
+}
+</style>
+</head>
+<body>
+
+<h1>Bank Zbożowy</h1>
+

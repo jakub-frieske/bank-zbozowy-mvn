@@ -1,0 +1,9 @@
+<#include "_head">
+
+<h3>Dziękujemy za skorzystanie z usług Banku Zbożowego.</h3>
+
+<form action="init" method="post">
+<input type="submit" value="Powrót">
+</form>
+
+<#include "_foot">

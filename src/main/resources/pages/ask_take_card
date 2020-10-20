@@ -1,0 +1,10 @@
+<#include "_head">
+
+<h3>Operacja została wykonana poprawnie.</h3>
+<h3>Proszę odebrać kartę.</h3>
+
+<form action="withdraw_take_card" method="post">
+<input type="submit" name="withdraw_take_card" value="Odbierz kartę">
+</form>
+
+<#include "_foot">

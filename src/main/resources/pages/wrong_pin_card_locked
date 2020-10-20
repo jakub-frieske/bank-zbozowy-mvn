@@ -1,0 +1,10 @@
+<#include "_head">
+
+<h3 id="errors">Podano błędny PIN. Karta została zablokowana.</h3>
+<h3>Proszę odebrać kartę.</h3>
+
+<form action="card_out" method="post">
+<input type="submit" name="card_out" value="Odbierz">
+</form>
+
+<#include "_foot">

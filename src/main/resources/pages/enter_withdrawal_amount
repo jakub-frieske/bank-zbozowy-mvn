@@ -1,0 +1,13 @@
+<#include "_head">
+
+<#if error_msg?has_content>
+<h3 id="errors">${error_msg}</h3>
+</#if>
+<h3>Podaj kwotę wypłaty</h3>
+
+<form action="withdraw_amount" method="post">
+<input name="amount">
+<input type="submit" name="withdraw_amount" value="Wypłać">
+</form>
+
+<#include "_foot">

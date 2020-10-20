@@ -1,0 +1,10 @@
+<#include "_head">
+
+<h3>Proszę podać PIN włożonej karty</h3>
+
+<form action="enter_pin" method="post">
+<input name="pin" length="4">
+<input type="submit" name="enter_pin" value="Wprowadź">
+</form>
+
+<#include "_foot">

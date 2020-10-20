@@ -1,0 +1,9 @@
+<#include "_head">
+
+<h2>Witamy w bankomatach Banku Zbożowego</h2>
+
+<form action="card_in" method="post">
+<input type="submit" name="card_in" value="Włóż kartę">
+</form>
+
+<#include "_foot">
